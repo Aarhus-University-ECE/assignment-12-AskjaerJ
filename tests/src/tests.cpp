@@ -2,10 +2,7 @@
 #include "catch.hpp"
 #include "duration.hpp"
 
-
-// See Catch2's documentation: https://github.com/catchorg/Catch2/blob/devel/docs/tutorial.md#scaling-up
-
-// Add your test cases. Dont forget to include header file. 
+// NOT A LOT TO EXPLAIN ABOUT THE TESTS. PRETTY STRAIGHT FORWARD AND SELF-EXPLANATORY.
 TEST_CASE("time") {
     duration test;
     duration timeset(10);

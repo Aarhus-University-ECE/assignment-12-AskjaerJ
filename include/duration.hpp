@@ -1,13 +1,13 @@
 
 class duration
 {
-private:
+private: /* Private variables in class duration */
     /* data */
     int time;
     int alarm;
     bool alarmHasBeenSet;
     bool check_and_update_time();
-public:
+public: /* Public variables in class duration */
     int getDuration();
     duration();
     bool tick();
